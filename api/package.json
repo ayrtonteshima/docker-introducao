@@ -1,0 +1,22 @@
+{
+  "name": "docker-intro-api",
+  "version": "1.0.0",
+  "description": "Programador a bordo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./src/index"
+  },
+  "keywords": [
+    "Docker"
+  ],
+  "author": "Ayrton Teshima",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
